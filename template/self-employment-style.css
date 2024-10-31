@@ -1,0 +1,141 @@
+#ssmc {
+    padding: 35px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 9px 0 rgba(0,0,0,.17);
+}
+
+.ssmc-hide {
+    display: none;
+}
+
+.ssmc_credit {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.ssmc_main_title {
+    text-align: center;
+}
+
+.ssmc_title {
+    margin: 25px 0 15px 0!important;
+    padding: 0!important;
+    color: #16163d;
+}
+
+.ssmc_label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #16163d;
+}
+
+.ssmc_block {
+    margin-bottom: 10px;
+}
+
+#ssmc_calculate {
+    background: #98c93e;
+    border-radius: 4px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#ssmc_calculate:hover {
+    background: #16163d;
+}
+
+.ssmc-currency {
+    background: #16163d;
+    border: 1px solid #16163d;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ssmc-currency span {
+    background: #16163d!important;
+    width: 50px!important;
+    color: #fff!important;
+    text-align: center!important;
+    height: 100%!important;
+    display: block!important;
+    font-weight: bold!important;
+    font-size: 18px!important;
+}
+
+#ssmc_employment_status {
+    border-radius: 4px!important;
+    width: 100%!important;
+    height: 100%!important;
+    border: 1px solid #16163d!important;
+    background: #fff!important;
+    padding: 10px 15px!important;
+    margin: 0!important;
+    font-size: 16px!important;
+}
+
+#ssmc_form input {
+    height: 100%!important;
+    border: none!important;
+    background: #fff!important;
+    padding: 10px 15px!important;
+    margin: 0!important;
+    font-size: 16px!important;
+    width: 100%;
+}
+
+.ssmc-grid {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+#ssmc_value {
+    position: relative;
+    padding: 15px 25px;
+    margin: 15px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: center;
+}
+
+#ssmc_value.hidden {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    #ssmc_form {
+        width: 100%;
+    }
+
+    .ssmc-grid {
+        display: block!important;
+        gap: 5%;
+        grid-template-columns: 1fr 1fr;
+        align-items: end;
+        margin-bottom: 50px;
+        width: 100%!important;
+    }
+
+    .ssmc_label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+}
+

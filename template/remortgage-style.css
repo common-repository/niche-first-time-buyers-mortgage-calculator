@@ -1,0 +1,205 @@
+#rmc {
+    font-size: 14px;
+    padding: 10px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.rmc_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rmc_inputs {
+    margin: 50px 0;
+}
+
+.rmc_tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.rmc_tabs div {
+    padding: 5px 20px;
+    border-radius: 6px 6px 0px 0px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #16163d !important;
+    font-weight: bold;
+}
+
+.rmc_tabs div.active {
+    background: #eee;
+}
+
+.rmc_hidden {
+    display: none!important;
+}
+
+.rmc_panel {
+    background:#eee;
+    padding: 50px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.rmc_panel > div {
+    margin-bottom: 15px;
+}
+
+.rmc_label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #16163d;
+}
+
+.rmc-currency,
+.rmc-years {
+    background: #16163d !important;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.rmc-currency span {
+    min-width: 50px !important;
+    color: #fff !important;
+    text-align: center !important;
+    height: 100% !important;
+    display: block !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    padding: 0 10px!important;
+}
+
+.rmc-years span {
+    min-width: 50px !important;
+    color: #fff !important;
+    text-align: center !important;
+    height: 100% !important;
+    display: flex !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    padding: 0 10px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.rmc-years span svg {
+    color: #fff!important;
+    fill: #fff!important;
+    width: 20px;
+    height: 20px;
+}
+
+.rmc-years input {
+    padding: 10px;
+}
+
+.rmc-years input,
+.rmc-years input:focus,
+.rmc-currency input,
+.rmc-currency input:focus {
+    background: #fff;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.rmc_results {
+    box-shadow: -10px 2px 25px rgba(0, 0, 0, 0.2);
+    background:#16163d;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rmc_panel_a_results,
+#rmc_panel_b_results {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#rmc_panel_a_results > div,
+#rmc_panel_b_results > div {
+    width: 100%;
+}
+
+.rmc_top {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.rmc_ltv {
+    background: #98c93e;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    border-bottom: 2px solid rgba(255, 255, 255,0.1);
+    border-top: 2px solid rgba(255, 255, 255,0.1);
+}
+
+.rmc_explain {
+    font-size: 18px;
+    padding: 10%;
+}
+
+.rmc_value {
+    font-size: 50px;
+    color: #98c93e;
+    font-weight: bold;
+}
+
+#rmc_ltv {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .rmc_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .rmc_inputs {
+        margin-bottom: 10px;
+    }
+}
+
+.rmc-currency input,
+.rmc-currency input:focus {
+    background: #fff;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+#shortcode-530-732 {
+    background-color: #fff;
+}
+
+.rmc_tabs div.active,
+.rmc_panel {
+    background: #eeeeee;
+}
+
+.rmc_tabs div.active {
+    background: #eee;
+}
+
+.rmc_credit {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#rmc-b {
+    display: none;
+}
